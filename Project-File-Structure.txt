@@ -1,0 +1,62 @@
+/smart-ecommerce-market
+├── /frontend               # React Frontend
+│   ├── /src
+│   │   ├── /components     # Reusable UI components
+│   │   ├── /pages          # Page components (e.g., Home, Product, Cart)
+│   │   ├── /services       # API services for interacting with backend
+│   │   ├── /assets         # Static assets like images, icons
+│   │   ├── /styles         # Global CSS/Tailwind files
+│   │   └── index.js        # Entry point for React app
+│   ├── package.json        # Dependencies for React
+│   ├── .env                # Environment variables
+│   └── README.md
+
+├── /backend                # Java Servlet Backend
+│   ├── /src
+│   │   ├── /main
+│   │   │   ├── /java/com/smartmarket
+│   │   │   │   ├── /controllers  # Servlets handling API endpoints
+│   │   │   │   ├── /models       # Entity classes for JPA/Hibernate
+│   │   │   │   ├── /services     # Business logic
+│   │   │   │   ├── /repositories # Data access logic
+│   │   │   │   └── /utils        # Helper utilities
+│   │   │   └── /resources
+│   │   │       ├── application.properties  # Database and app config
+│   │   │       └── web.xml                  # Servlet configuration
+│   │   └── /test
+│   │       └── /java/com/smartmarket        # Unit and integration tests
+│   ├── pom.xml             # Maven dependencies and build config
+│   ├── Dockerfile          # Docker configuration for backend
+│   └── README.md
+
+├── /ai-service             # Python AI/ML Microservice
+│   ├── /src
+│   │   ├── app.py          # Flask/Django entry point for API
+│   │   ├── /models         # Trained models and logic
+│   │   ├── /data           # Sample datasets for training/validation
+│   │   ├── /services       # Functions for recommendation algorithms
+│   │   └── /utils          # Helper functions
+│   ├── requirements.txt    # Python dependencies
+│   ├── Dockerfile          # Docker configuration for Python service
+│   └── README.md
+
+├── /database               # Database scripts and configurations
+│   ├── /migrations         # SQL migration files for schema changes
+│   ├── schema.sql          # Initial database schema
+│   └── seed.sql            # Sample data for development/testing
+
+├── /docs                   # Documentation
+│   ├── architecture.md     # High-level architecture and design
+│   ├── api-docs.md         # REST API documentation
+│   └── README.md
+
+├── /scripts                # Deployment and utility scripts
+│   ├── start.sh            # Script to start all services
+│   ├── build.sh            # Script to build all components
+│   ├── deploy.sh           # Script for deployment
+│   └── README.md
+
+├── docker-compose.yml      # Orchestration for frontend, backend, and AI service
+├── README.md               # Project overview and instructions
+├── .gitignore              # Git ignore rules
+└── .env                    # Environment variables for the project
