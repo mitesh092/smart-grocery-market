@@ -1,4 +1,4 @@
-/smart-ecommerce-market
+/smart-grocery-market
 ├── /frontend               # React Frontend
 │   ├── /src
 │   │   ├── /components     # Reusable UI components
