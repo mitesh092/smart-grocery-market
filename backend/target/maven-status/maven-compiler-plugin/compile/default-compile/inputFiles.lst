@@ -1,1 +1,5 @@
-E:\smart-ecommerce-market\backend\src\main\java\com\smartmarket\Application.java
+E:\smart-grocery-market\backend\src\main\java\com\smartmarket\models\Product.java
+E:\smart-grocery-market\backend\src\main\java\com\smartmarket\controllers\ProductController.java
+E:\smart-grocery-market\backend\src\main\java\com\smartmarket\Application.java
+E:\smart-grocery-market\backend\src\main\java\com\smartmarket\repositories\ProductRepository.java
+E:\smart-grocery-market\backend\src\main\java\com\smartmarket\services\ProductService.java
