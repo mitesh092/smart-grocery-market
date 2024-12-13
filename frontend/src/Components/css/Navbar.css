@@ -7,6 +7,7 @@
   justify-content: space-between;
   background: linear-gradient(to right, #0cc5b7, #61d9a1);
   font-family: Arial, sans-serif;
+  width:101vw;
 }
 
 .navbar-logo {

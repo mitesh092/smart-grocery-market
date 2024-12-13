@@ -1,11 +1,13 @@
-.OfferFront{
-    font-size: smaller;   
+.OfferFront {
+  font-size: smaller;
+}
+.body {
+  overflow-x: hidden;
 }
 
-
-.divider{
-    margin: 2px ;
-    width: 100%;
-    height: 0.5px;
-    background-color: rgba(70, 70, 70, 0.146);
+.divider {
+  margin: 2px;
+  width: 100%;
+  height: 0.5px;
+  background-color: rgba(70, 70, 70, 0.146);
 }

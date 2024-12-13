@@ -1,0 +1,54 @@
+.dish-layout {
+  display: flex;
+  overflow: hidden; /* Hide overflowing items */
+  width: 100%; /* Ensure it doesn't exceed container width */
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Space between items */
+  margin-top: 5rem;
+}
+
+.Item-struc {
+  display: flex; /* Set flex on the container */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Horizontally center content */
+  justify-content: center; /* Vertically center content */
+  text-align: center; /* Center text */
+  
+}
+
+.item-image {
+  height: 80px; /* Adjust size as needed */
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; /* Transparent background */
+  overflow: hidden; /* Ensures the image stays within the circle */
+  border: 1px solid #ddd; /* Optional: Add a border for a subtle outline */
+}
+
+.item-image img {
+  height: 100%; /* Ensure the image scales properly */
+  width: 100%;
+  object-fit: contain; /* Maintain aspect ratio */
+  background-color: transparent; /* Ensure image itself has a transparent background */
+}
+
+.d-flex > div {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 10px 0 5px;
+  width: 7rem;
+  word-wrap: break-word;
+}
+
+p {
+  font-size: 0.875rem;
+  color: gray;
+}

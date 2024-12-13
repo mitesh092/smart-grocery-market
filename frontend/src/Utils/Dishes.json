@@ -1,0 +1,57 @@
+[
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734067393/Hazelnut-Hot-Chocolate_EXPS_HPLBZ18_40379_C05_16_3b-6_puzeim.jpg",
+    "category": "beverages",
+    "quantity": 1
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734067519/Buy-Butter-Salt-Biscuit-in-Nagercoil_xhwztr.jpg",
+    "category": "Biscuits & Snacks ",
+    "quantity": 1
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734067611/1418418212045_ouhdhp.jpg",
+    "category": "Breakfast & Dairy",
+    "quantity": 1
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734067816/fruits-and-vegetables-in-a-wicker-basket-on-a-white-background-generative-ai-photo_x5ahlg.jpg",
+    "category": "Fruits & Vegetables",
+    "quantity": 12
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734067816/fruits-and-vegetables-in-a-wicker-basket-on-a-white-background-generative-ai-photo_x5ahlg.jpg",
+    "category": "Furnishing & Home Needs",
+    "quantity": 1
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734068026/grocery_fwd5ls.jpg",
+    "category": "Grocery & Staples",
+    "quantity": 1
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734068086/shopping_x08aku.webp",
+    "category": "Home & Kitchen",
+    "quantity": 1
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734068160/images_dix8hi.jpg",
+    "category": "Household Needs",
+    "quantity": 1
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734068251/quick-shoyu-ramen-2031288-hero-01-b55a9d6aaaef467da185e7351e26cb67_w1p6w0.jpg",
+    "category": "Noodles & Instant Food",
+    "quantity": 1
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734068349/breakfastdairy_mdb9mx.jpg",
+    "category": "Personal Care",
+    "quantity": 1
+  },
+  {
+    "imageUrl": "https://res.cloudinary.com/do9hu4gew/image/upload/v1734068406/61pWrumc-gL._AC_UF1000_1000_QL80__rgvbig.jpg",
+    "category": "Pet Care",
+    "quantity": 1
+  }
+]
