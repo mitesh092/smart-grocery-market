@@ -1,5 +1,5 @@
 .layout {
-  justify-content: space-around;
+  justify-content: space-evenly;
   gap: 4;
   height: 143px;
   align-items: center;
@@ -15,6 +15,13 @@
   background: linear-gradient(to right, #0cc5b7, #61d9a1);
   border: none;
   transition: background 0.3s ease-in-out;
+}
+  
+.left{
+  margin-left: 15rem;
+}
+.right{
+  margin-right: 15rem;
 }
 
 .cr:hover {

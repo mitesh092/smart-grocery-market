@@ -7,7 +7,10 @@
 
 .divider {
   margin: 2px;
-  width: 100%;
+  width: 99.80vw;
   height: 0.5px;
   background-color: rgba(70, 70, 70, 0.146);
+}
+.my{
+  margin-top: 3rem;
 }

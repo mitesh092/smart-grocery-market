@@ -5,6 +5,7 @@ import Offer from "./Components/Offer";
 import Navigations from "./Components/Navigations";
 import CategoryItem from "./Components/CategoryItem";
 
+
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Navigations />
       <div className="divider"></div>
       <CategoryItem />
+      <div className="divider my"></div>
     </>
   );
 }

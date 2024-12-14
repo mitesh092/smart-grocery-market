@@ -6,7 +6,9 @@
   align-items: center;
   gap: 15px; /* Space between items */
   margin-top: 5rem;
+  transition: transform 0.2s ease-in-out; 
 }
+
 
 .Item-struc {
   display: flex; /* Set flex on the container */
@@ -14,7 +16,7 @@
   align-items: center; /* Horizontally center content */
   justify-content: center; /* Vertically center content */
   text-align: center; /* Center text */
-  
+  cursor: pointer;
 }
 
 .item-image {
@@ -27,6 +29,8 @@
   background-color: transparent; /* Transparent background */
   overflow: hidden; /* Ensures the image stays within the circle */
   border: 1px solid #ddd; /* Optional: Add a border for a subtle outline */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
 
 .item-image img {
@@ -52,3 +56,9 @@ p {
   font-size: 0.875rem;
   color: gray;
 }
+.item-image:hover {
+  transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+  height: 100px; /* Adjust size as needed */
+  width: 100px;
+}
+
