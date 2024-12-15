@@ -1,0 +1,132 @@
+/* Slider Container */
+.custom-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Slider Arrows */
+.cr {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 10px;
+  background: linear-gradient(to right, #0cc5b7, #61d9a1);
+  border: none;
+  transition: background 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.cr:hover {
+  background: linear-gradient(to right, #61d9a1, #0cc5b7);
+}
+
+/* Positioning Arrows */
+.position-absolute {
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.position-absolute.start-0 {
+  left: 10px;
+}
+
+.position-absolute.end-0 {
+  right: 10px;
+}
+
+/* Image Display */
+.custom-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Slide Animations */
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out-left {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.slide-in-right {
+  animation: slide-in-right 0.3s ease-out forwards;
+}
+
+.slide-out-left {
+  animation: slide-out-left 0.3s ease-out forwards;
+}
+
+.slide-in-left {
+  animation: slide-in-left 0.3s ease-out forwards;
+}
+
+.slide-out-right {
+  animation: slide-out-right 0.3s ease-out forwards;
+}
+
+/* Indicators */
+.d-flex.justify-content-center.mt-3.mb-5 div {
+  width: 30px;
+  height: 3px;
+  background-color: #d6d6d6;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.d-flex.justify-content-center.mt-3.mb-5 div.active {
+  background-color: #6c757d;
+}
+
+/* Additional Global Reset (Optional) */
+body {
+  margin: 0; /* Remove default body margin */
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling globally */
+}

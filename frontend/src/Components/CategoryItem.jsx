@@ -9,11 +9,16 @@ function CategoryItem() {
   const [visibleDishes, setVisibleDishes] = useState(Dishes.slice(0, 7)); // Initially show the first 7 dishes
 
   const handleScroll = (direction) => {
+    
     const currentStartIndex = Dishes.indexOf(visibleDishes[0]);
-    const currentEndIndex = Dishes.indexOf(visibleDishes[visibleDishes.length - 1]);
+    const currentEndIndex = Dishes.indexOf(
+      visibleDishes[visibleDishes.length - 1]
+    );
 
     if (direction === "r" && currentEndIndex < Dishes.length - 1) {
       // Scroll right
+
+      
       setVisibleDishes((prev) => [
         ...prev.slice(1), // Remove the first item
         Dishes[currentEndIndex + 1], // Add the next item
@@ -32,7 +37,7 @@ function CategoryItem() {
       <button
         className="cr left"
         onClick={() => handleScroll("l")}
-        disabled={Dishes.indexOf(visibleDishes[0]) === 0} // Disable if at the start
+        disabled={Dishes.indexOf(visibleDishes[0]) === 0} 
       >
         <FaChevronLeft size={20} color="white" aria-label="previous Item" />
       </button>
@@ -42,7 +47,11 @@ function CategoryItem() {
       <button
         className="cr right"
         onClick={() => handleScroll("r")}
-        disabled={Dishes.indexOf(visibleDishes[visibleDishes.length - 1]) === Dishes.length - 1} // Disable if at the end
+        disabled={
+          Dishes.indexOf(visibleDishes[visibleDishes.length - 1]) ===
+          Dishes.length - 1
+        } 
+
       >
         <FaChevronRight size={20} color="white" aria-label="next Item" />
       </button>

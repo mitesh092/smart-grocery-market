@@ -6,9 +6,8 @@
   align-items: center;
   gap: 15px; /* Space between items */
   margin-top: 5rem;
-  transition: transform 0.2s ease-in-out; 
+  transition: transform 0.4s ease-in-out; /* Smooth transition for scroll */
 }
-
 
 .Item-struc {
   display: flex; /* Set flex on the container */
@@ -17,6 +16,16 @@
   justify-content: center; /* Vertically center content */
   text-align: center; /* Center text */
   cursor: pointer;
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Slide in from below */
+  animation: fadeIn 0.5s forwards; /* Fade and slide in animation */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .item-image {
@@ -40,9 +49,10 @@
   background-color: transparent; /* Ensure image itself has a transparent background */
 }
 
-.d-flex > div {
-  text-align: center;
-  font-family: Arial, sans-serif;
+.item-image:hover {
+  transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+  height: 100px; /* Adjust size as needed */
+  width: 100px;
 }
 
 h3 {
@@ -56,9 +66,6 @@ p {
   font-size: 0.875rem;
   color: gray;
 }
-.item-image:hover {
-  transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
-  height: 100px; /* Adjust size as needed */
-  width: 100px;
-}
+
+
 
