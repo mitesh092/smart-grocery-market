@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/Products.css";
+import Product from "./Product";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -16,8 +17,9 @@ function Products() {
       </div>
 
       {/* product list */}
-      <div className="products"></div>
-      
+      <div className="products">
+        <Product />
+      </div>
     </div>
   );
 }

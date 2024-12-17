@@ -1,0 +1,159 @@
+.cart-Layout {
+  height: 430px;
+  padding: 10px;
+  max-width: 275px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.06);
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+}
+.Product-data {
+  display: flex;
+  justify-content: space-between;
+}
+.Sign {
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+.Sign img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  background-color: transparent;
+}
+.Off-on-Product {
+  position: relative;
+  width: 40px;
+  top: 5px;
+}
+
+.offer {
+  background: #f2fef2 none repeat scroll 0 0;
+  color: #4eda92;
+  font-size: 12px;
+  font-weight: 700;
+  z-index: 9;
+}
+
+.Food-Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: 150px;
+  width: 150px;
+}
+
+.Food-Image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  background-color: transparent;
+  margin-left: 6rem;
+}
+
+.Food-Title p {
+  text-transform: capitalize;
+  color: #0cc5b7;
+  font-size: medium;
+  font-weight: 800;
+  font-family: "Maven Pro", "sans-serif";
+  margin: 0;
+}
+
+.in-Stock {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.in-Stock p {
+  color: #9c9c9c;
+  text-transform: capitalize;
+  font-weight: 780;
+  font-size: small;
+}
+
+.checkmark {
+  position: relative;
+  bottom: 7px;
+}
+
+.Price-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.compare-price {
+  text-decoration: line-through;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.actual-price {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.counter-container {
+  height: 45px;
+  margin: 0px 46px;
+  background-color: #fff1f0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  color: #747691;
+  font-weight: 500;
+}
+
+.counter-button {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  border: none;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-to-cart {
+  height: 40px;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+  color: white;
+  background: linear-gradient(to left, #fc584a, #fa7c5a);
+  border-radius: 20px;
+  margin: 2rem 45px;
+  border: none;
+}
+.add-to-cart p {
+  color: white;
+  margin: 0;
+}
+
+/* Hover Effect */
+
+.Food-Image img:hover {
+  transition: all 0.6s ease-in-out; /* Smooth transition for all properties */
+  height: 12rem; /* Adjust size as needed */
+  width: 12rem;
+}
+
+.counter-button:hover {
+  color: white;
+  background: linear-gradient(to left, #fc584a, #fa7c5a);
+}
