@@ -1,10 +1,10 @@
 .Custom-container {
-  height: 910px;
+  height: 1240px;
   background-color: #f0f7fa;
 }
 
 .pad {
-  padding: 5% 15% 5% 15%;
+  padding: 5rem 11.5rem;
 }
 
 .Off {
@@ -25,9 +25,32 @@ div a {
   font-weight: 500;
   font-size: medium;
   transition: 0.3s;
-
 }
 
-div a:hover{    
-    color: black;
+div a:hover {
+  color: black;
+}
+.products {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 products in a row */
+  gap: 2rem; /* Space between grid items */
+}
+
+@media (max-width: 768px) {
+  .products {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 products in a row for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .products {
+    grid-template-columns: repeat(
+      1,
+      1fr
+    ); /* 1 product in a row for very small screens */
+  }
 }

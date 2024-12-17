@@ -19,6 +19,13 @@ function Products() {
       {/* product list */}
       <div className="products">
         <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
       </div>
     </div>
   );
