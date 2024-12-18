@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSmile, faLocationDot, faSignInAlt, faUserPlus } from "@fortawesome/free-solid-svg-icons";
-import "../App.css";
+
 
 function Offer() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
