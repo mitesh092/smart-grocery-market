@@ -1,5 +1,5 @@
 .Custom-container {
-  height: 1240px;
+  height: 1800px;
   background-color: #f0f7fa;
 }
 
@@ -10,9 +10,7 @@
 .Off {
   background-color: #3579f6;
   color: white;
-  padding: 2px;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: 2px 3px;
   font-weight: 400;
   border: none;
   border-radius: 2px;
@@ -24,33 +22,93 @@ div a {
   text-decoration: none;
   font-weight: 500;
   font-size: medium;
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 
 div a:hover {
   color: black;
 }
+
+.MidImage {
+  margin-top: 2rem;
+  height: 25vh;
+  width: 76.5vw;
+  background-image: url("https://newlifesupermarket.com/wp-content/uploads/2018/08/2-2.jpg");
+  background-size: contain;
+  background-position: center;
+
+  
+}
+
 .products {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 products in a row */
-  gap: 2rem; /* Space between grid items */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
+/* Slider Wrapper */
+.Product-slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.Product-slider {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+  scrollbar-width: none; 
+}
+
+.Product-slider::-webkit-scrollbar {
+  display: none; 
+}
+
+  
+/* Product Card Styling */
+.Product {
+  min-width: 200px;
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
+  .pad {
+    padding: 2rem 3rem;
+  }
+
   .products {
-    grid-template-columns: repeat(
-      2,
-      1fr
-    ); /* 2 products in a row for smaller screens */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Product {
+    min-width: 150px;
+  }
+
+  .MidImage {
+    height: 20vh;
+    width: 90vw;
   }
 }
 
 @media (max-width: 480px) {
   .products {
-    grid-template-columns: repeat(
-      1,
-      1fr
-    ); /* 1 product in a row for very small screens */
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pad {
+    padding: 1rem;
+  }
+
+  .MidImage {
+    height: 15vh;
+    width: 100%;
   }
 }

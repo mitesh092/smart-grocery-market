@@ -6,6 +6,7 @@
   text-align: center;
   position: relative;
   background-color: #fff;
+  cursor: pointer;
 }
 .Product-data {
   display: flex;
