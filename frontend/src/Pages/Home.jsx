@@ -17,7 +17,7 @@ function Home() {
       <Offer />
       <Navbar />
       
-      <div className="divider"></div>
+      {/* <div className="divider"></div>
       <CategoryItem />
       <div className="divider my"></div>
       <Slider />
@@ -26,7 +26,7 @@ function Home() {
       <div className="divider my-0"></div>
       <FeatureSection />
       <div className="divider my-0"></div>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
