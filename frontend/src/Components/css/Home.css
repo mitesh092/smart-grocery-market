@@ -5,9 +5,13 @@
   overflow-x: hidden;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .divider {
   margin: 2px;
-  width: 99.8vw;
+  width: 100;
   height: 0.5px;
   background-color: rgba(70, 70, 70, 0.146);
 }

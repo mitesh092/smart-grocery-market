@@ -54,7 +54,7 @@ function Navbar() {
         )}
       </nav>
 
-      {(isWindowLarge || isMobileView) && <Navigations />}
+      {(isWindowLarge || isMobileView) && <Navigations isWindowLarge={isWindowLarge} />}
     </>
   );
 }

@@ -1,4 +1,4 @@
-/* Navigation Container */
+/* Default Navigation Container (Large View) */
 .navigation {
   display: flex;
   align-items: center;
@@ -28,7 +28,11 @@
   color: #555;
   padding: 10px 15px;
   transition: color 0.3s ease-in-out;
-  font-size: 1.10rem;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  width: 90vw; /* Desired width */
+  flex: 0 0 90vw; /* Explicitly set flex behavior */
+  box-sizing: border-box; /* Ensures padding is included in width */
 }
 
 .navigation-link:hover {
@@ -65,4 +69,20 @@
 /* Show dropdown menu on hover */
 .navigation-item:hover .dropdown-menu {
   display: block;
+}
+
+/* Mobile View */
+.navigation.mobile-view {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navigation.mobile-view .navigation-list {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.navigation.mobile-view .navigation-link {
+  width: 100%;
+  padding: 10px 0;
 }

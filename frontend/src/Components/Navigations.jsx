@@ -2,9 +2,11 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/Navigation.css";
 
-function Navigations() {
+function Navigations({ isWindowLarge }) {
   return (
-    <div className="navigation">
+    <div
+      className={`navigation ${isWindowLarge ? "large-view" : "mobile-view"}`}
+    >
       <div className="navigation-container">
         <ul className="navigation-list">
           {/* Home Dropdown */}
@@ -143,7 +145,6 @@ function Navigations() {
           </li>
         </ul>
       </div>
-
     </div>
   );
 }

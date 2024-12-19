@@ -17,16 +17,16 @@ function Home() {
       <Offer />
       <Navbar />
       
-      {/* <div className="divider"></div>
-      <CategoryItem />
+      <div className="divider"></div>
+      <CategoryItem />  
       <div className="divider my"></div>
       <Slider />
       <div className="divider"></div>
       <Products />
       <div className="divider my-0"></div>
-      <FeatureSection />
+      {/* <FeatureSection />  Here is Responsiveness problem  */}
       <div className="divider my-0"></div>
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
