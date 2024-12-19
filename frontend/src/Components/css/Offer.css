@@ -1,0 +1,67 @@
+.OfferFront{
+    display: flex;
+    
+}
+
+/* Small Devices (320px and up) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .OfferFront {
+    display: block; /* Ensure block display for mobile view */
+    font-size: 14px;
+    padding: 10px;
+    
+  }
+  .Action {
+    padding-top: 1rem;
+    display: flex; /* Ensure flex display for mobile view */
+    flex-direction: row; /* Stack items vertically */
+
+    align-items: center; /* Center items horizontally */
+    gap: 10px; /* Add spacing between items */
+  }
+  .text {
+    font-size: 12px;
+  }
+
+  .Action span{
+    font-size: 12px;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .OfferFront {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .gap-4 {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+
+/* Small Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .OfferFront {
+    font-size: 18px;
+    padding: 20px;
+    text-align: left;
+  }
+  .gap-4 {
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+}
+
+/* Large Laptops and Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .OfferFront {
+    font-size: 20px;
+    padding: 25px;
+  }
+  .gap-4 {
+    flex-wrap: nowrap;
+    gap: 25px;
+  }
+}
+

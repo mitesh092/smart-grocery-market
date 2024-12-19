@@ -9,7 +9,6 @@ function About() {
     <div>
       <Offer />
       <Navbar />
-      <Navigations />
       <AboutUsPanel />
     </div>
   );

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSmile, faLocationDot, faSignInAlt, faUserPlus } from "@fortawesome/free-solid-svg-icons";
-
+import "./css/Offer.css"
 
 function Offer() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -30,17 +30,17 @@ function Offer() {
   };
 
   return (
-    <div className="bg-dark py-2 d-flex justify-content-around align-items-center px-4 OfferFront">
+    <div className="bg-dark py-2  justify-content-around align-items-center px-4 OfferFront">
       {/* Offer Section */}
       <div>
-        <p className="text-white mb-0 ">
+        <p className="text-white mb-0 text">
           20% cashback for all users | Code: <strong>OGOFERS13</strong>{" "}
           <FontAwesomeIcon icon={faSmile} />
         </p>
       </div>
 
       {/* Action Section */}
-      <div className="d-flex gap-4 text-white ">
+      <div className="d-flex gap-4 text-white Action ">
         <div className="d-flex align-items-center position-relative">
           <FontAwesomeIcon icon={faLocationDot} className="me-2" />
           <span
