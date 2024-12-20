@@ -36,8 +36,6 @@ div a:hover {
   background-image: url("https://newlifesupermarket.com/wp-content/uploads/2018/08/2-2.jpg");
   background-size: contain;
   background-position: center;
-
-  
 }
 
 .products {
@@ -45,7 +43,6 @@ div a:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  
 }
 
 /* Slider Wrapper */
@@ -61,14 +58,13 @@ div a:hover {
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 1rem 0;
-  scrollbar-width: none; 
+  scrollbar-width: none;
 }
 
 .Product-slider::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 
-  
 /* Product Card Styling */
 .Product {
   min-width: 200px;
@@ -114,17 +110,17 @@ div a:hover {
   }
 }
 @media (min-width: 425px) and (max-width: 480px) {
-  .products{
-    margin-left: 3rem;
+  .products {
+    margin-left: 4rem;  
   }
 }
 @media (min-width: 320px) and (max-width: 375px) {
-  .products{
+  .products {
     margin-left: 0.5rem;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
-  .products{
+  .products {
     margin-left: 2.6rem;
   }
 }
