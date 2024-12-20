@@ -6,12 +6,16 @@
   padding: 20px;
   background-color: #fff;
   margin-bottom: 1.5rem;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .feature-item {
   display: flex;
   align-items: center;
   text-align: left;
+  width: 100%; /* Default width for responsiveness */
+  max-width: 300px; /* Limit maximum width */
+  margin: 10px 0; /* Add spacing between rows on smaller screens */
 }
 
 .feature-icon {
@@ -38,4 +42,38 @@
   font-size: 14px;
   color: #777;
   margin: 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .feature-container {
+    flex-direction: column; /* Stack items vertically */
+    gap: 2rem; /* Reduce gap for smaller screens */
+    padding: 10px; /* Reduce padding */
+  }
+
+  .feature-item {
+    justify-content: center; /* Center align items */
+    text-align: center; /* Center align text */
+  }
+
+  .feature-icon {
+    margin: 0 auto 10px; /* Center icon and add spacing below */
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 20px; /* Adjust icon size */
+  }
+
+  .feature-content h3 {
+    font-size: 14px; /* Adjust heading size */
+  }
+
+  .feature-content p {
+    font-size: 12px; /* Adjust paragraph size */
+  }
 }
