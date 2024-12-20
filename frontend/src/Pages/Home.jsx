@@ -16,7 +16,6 @@ function Home() {
     <>
       <Offer />
       <Navbar />
-      
       <div className="divider"></div>
       <CategoryItem />  
       <div className="divider my"></div>

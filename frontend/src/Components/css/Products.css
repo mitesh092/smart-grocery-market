@@ -1,5 +1,5 @@
 .Custom-container {
-  height: 1800px;
+  height: auto;
   background-color: #f0f7fa;
 }
 
@@ -45,6 +45,7 @@ div a:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  
 }
 
 /* Slider Wrapper */
@@ -110,5 +111,20 @@ div a:hover {
   .MidImage {
     height: 15vh;
     width: 100%;
+  }
+}
+@media (min-width: 425px) and (max-width: 480px) {
+  .products{
+    margin-left: 3rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .products{
+    margin-left: 0.5rem;
+  }
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .products{
+    margin-left: 2.2rem;
   }
 }
