@@ -23,7 +23,7 @@ function Home() {
       <div className="divider"></div>
       <Products />
       <div className="divider my-0"></div>
-      <FeatureSection /> {/*Here is Responsiveness problem*/}
+      <FeatureSection /> 
       <div className="divider my-0"></div>
       <Footer />
     </>

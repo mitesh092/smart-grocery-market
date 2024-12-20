@@ -81,7 +81,7 @@ function Footer() {
 
       {/* Bottom Section */}
       <div className="footer-bottom">
-        <p>Copyright 2022. KlbTheme. All rights reserved.</p>
+        <p>Copyright 2024. Smart Glocery Market. All rights reserved.</p>
         <div className="footer-payment">
           <img
             src="https://pentagram-production.imgix.net/de996aa4-5343-4200-a466-ab8fc7eafa80/am_amex_01.jpg?rect=0%2C172%2C3000%2C1875&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548"

@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/Navigation.css";
+import { Link } from "react-router-dom";
 
 function Navigations({ isWindowLarge }) {
   return (
@@ -11,137 +12,137 @@ function Navigations({ isWindowLarge }) {
         <ul className="navigation-list">
           {/* Home Dropdown */}
           <li className="navigation-item dropdown">
-            <a
+            <Link
               className="navigation-link dropdown-toggle"
-              href="#"
+              to="/"
               id="dashboardDropdown"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               Home
-            </a>
+            </Link>
             <ul className="dropdown-menu" aria-labelledby="dashboardDropdown">
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/">
                   Home 1
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/home2">
                   Home 2
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/home3">
                   Home 3
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/home-rtl">
                   Home RTL
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
 
           {/* About Us */}
           <li className="navigation-item">
-            <a className="navigation-link" href="#">
+            <Link className="navigation-link" to="/about">
               About Us
-            </a>
+            </Link>
           </li>
 
           <li className="navigation-item">
-            <a className="navigation-link" href="#">
+            <Link className="navigation-link" to="/fruits-vegetables">
               Fruits & Vegetables
-            </a>
+            </Link>
           </li>
 
           {/* Shop Dropdown */}
           <li className="navigation-item dropdown">
-            <a
+            <Link
               className="navigation-link dropdown-toggle"
-              href="#"
+              to="/shop"
               id="projectsDropdown"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               Shop
-            </a>
+            </Link>
             <ul className="dropdown-menu" aria-labelledby="projectsDropdown">
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/products-grid">
                   Products Grid
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/product-details">
                   Product Details
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/product-variable">
                   Product Variable
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/my-account">
                   My Account
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/checkout">
                   Checkout
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/cart">
                   Cart
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
 
           {/* Blog Dropdown */}
           <li className="navigation-item dropdown">
-            <a
+            <Link
               className="navigation-link dropdown-toggle"
-              href="#"
+              to="/blog"
               id="projectsDropdown"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               Blog
-            </a>
+            </Link>
             <ul className="dropdown-menu" aria-labelledby="projectsDropdown">
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/blog-list">
                   Blog List
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="/blog-details">
                   Blog Details
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
 
           {/* FAQ */}
           <li className="navigation-item">
-            <a className="navigation-link" href="#">
+            <Link className="navigation-link" to="/faq">
               FAQ
-            </a>
+            </Link>
           </li>
 
           {/* Contact */}
           <li className="navigation-item">
-            <a className="navigation-link" href="#">
+            <Link className="navigation-link" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

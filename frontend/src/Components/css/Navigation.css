@@ -33,6 +33,7 @@
   width: 90vw; /* Desired width */
   flex: 0 0 90vw; /* Explicitly set flex behavior */
   box-sizing: border-box; /* Ensures padding is included in width */
+  
 }
 
 .navigation-link:hover {

@@ -1,0 +1,43 @@
+/* MeComponent.css */
+
+/* General container styles */
+.me-container {
+  text-align: center;
+  padding: 50px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Header styles */
+.me-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Subheader styles */
+.me-container p {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Profile image styles */
+.me-container img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid #dee2e6;
+}
+
+/* Name styling */
+.me-container h4 {
+  color: #28a745;
+  margin-top: 10px;
+}
+
+/* Role styling */
+.me-container .role {
+  color: #6c757d;
+  font-size: 1rem;
+}
