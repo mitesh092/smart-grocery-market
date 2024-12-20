@@ -16,11 +16,11 @@
   border: none;
   transition: background 0.3s ease-in-out;
 }
-  
-.left{
+
+.left {
   margin-left: 15rem;
 }
-.right{
+.right {
   margin-right: 15rem;
 }
 
@@ -32,3 +32,29 @@
   background: #0ba897;
   transform: scale(0.95);
 }
+@media (max-width: 768px) {
+  .layout {
+    justify-content: center;
+    gap: 0; /* No gap for mobile */
+    height: auto;
+  }
+
+  .dish-layout {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .cr.left {
+    margin-left: 0; /* Remove extra spacing for mobile */
+  }
+
+  .cr.right {
+    margin-right: 0; /* Remove extra spacing for mobile */
+  }
+
+  .Item-struc {
+    width: 100%; /* Take full width on mobile */
+    max-width: 300px; /* Set a max width to prevent overflow */
+  }
+}
+  
