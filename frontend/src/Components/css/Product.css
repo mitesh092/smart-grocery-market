@@ -159,38 +159,4 @@
   background: linear-gradient(to left, #fc584a, #fa7c5a);
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
-  .cart-Layout {
-    height: 400px; /* Adjusted height for smaller screens */
-    width: 260px; /* Fixed width */
-    padding: 8px; /* Reduced padding */
-    margin: 0 auto; /* Center align the cart */
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1); /* Softer shadow for mobile */
-  }
 
-  .Food-Image {
-    height: 120px; /* Adjusted food image size */
-    width: 80px;
-    padding-right: 1rem;
-  }
-
-  .add-to-cart {
-    width: 80%; /* Reduce button width */
-    margin: 1.5rem auto; /* Center button */
-    height: 35px; /* Adjust button height */
-    font-size: 14px; /* Smaller font size */
-  }
-
-  .counter-container {
-    margin: 0 20px; /* Reduce side margins */
-    height: 40px; /* Adjust height */
-  }
-
-  .actual-price {
-    font-size: 16px; /* Slightly smaller font */
-  }
-
-  .compare-price {
-    font-size: 9px; /* Adjust compare price font size */
-  }
-}
