@@ -111,7 +111,7 @@ div a:hover {
 }
 @media (min-width: 425px) and (max-width: 480px) {
   .products {
-    margin-left: 4rem;  
+    margin-left: 4.5rem;  
   }
 }
 @media (min-width: 320px) and (max-width: 375px) {
