@@ -3,8 +3,8 @@ import React from "react";
 import Offer from "../Components/Offer";
 import Navbar from "../Components/Navbar";
 
-import Footer from "../Components/Footer";
 import Panel from "../Components/Panel";
+import Footer from "../Components/Footer";
 import "./pages-styles/Blog.css";
 
 const Blog = () => {

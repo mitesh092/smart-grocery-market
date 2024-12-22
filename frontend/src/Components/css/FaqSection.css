@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: #f9fbfc;
+  height: auto;
+}
+
+.faq-accordion {
+  height: auto;
+  flex: 1 1 45%;
+  max-width: 45%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.faq-question {
+  width: 100%;
+  font-size: 1rem;
+  margin: 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start; /* Align icon with the top of the text */
+  gap: 10px; /* Space between the icon and the question text */
+}
+
+.faq-icon {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #28a745; /* Green color for '+' icon */
+  flex-shrink: 0; /* Prevent the icon from resizing */
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #555;
+  background-color: #fff;
+  border-left: 3px solid #28a745;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.faq-item.active .faq-icon {
+  color: #d9534f; /* Red color for '-' icon */
+}
+
+.faq-item.active .faq-question {
+  background-color: #e6ffe6; /* Light green for expanded question */
+}
+
+.faq-question:hover {
+  background-color: #f5f5f5;
+}
+
+/* Right Section: Contact Form */
+.faq-contact-form {
+  flex: 1 1 45%;
+  max-width: 45%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-contact-form h3 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.faq-contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-contact-form input,
+.faq-contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.faq-contact-form textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.faq-contact-form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.faq-contact-form button:hover {
+  background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .faq-accordion,
+  .faq-contact-form {
+    max-width: 100%;
+  }
+}

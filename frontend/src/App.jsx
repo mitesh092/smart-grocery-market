@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Shop from "./Pages/Shop"; // Add other pages as necessary
 import Contact from "./Pages/Contact"; // Add other pages as necessary
+import Faq from "./Pages/Faq";
 import Blog from "./Pages/Blog"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
 
         <Route path="/blog" element={<Blog />} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<Contact />} />
         {/* Add more routes here as needed */}
       </Routes>
