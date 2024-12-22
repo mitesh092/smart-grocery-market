@@ -4,6 +4,9 @@ import Product from "./Product";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+// Static Data
+import Fruits_list from "../Utils/Fruits_list.json";
+
 function Products() {
   const sliderRef = useRef(null);
 
@@ -32,14 +35,16 @@ function Products() {
 
       {/* Product List */}
       <div className="products">
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
+        {Fruits_list.map((fruit, index) => (
+          <Product
+            key={index}
+            Food_Title={fruit.Food_Title}
+            Food_img_url={fruit.Food_img_url}
+            off={fruit.off}
+            com_Price={fruit.com_Price}
+            Actual_price={fruit.Actual_price}
+          />
+        ))}
       </div>
 
       {/* Middle Image */}
@@ -61,14 +66,18 @@ function Products() {
           <FaChevronLeft size={30} color="white" />
         </button>
         <div className="Product-slider" ref={sliderRef}>
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
+          {Fruits_list.slice(0, 6).map((fruit, index) => (
+            <Product
+              key={index}
+              Food_Title={fruit.Food_Title}
+              Food_img_url={fruit.Food_img_url}
+              off={fruit.off}
+              com_Price={fruit.com_Price}
+              Actual_price={fruit.Actual_price}
+            />
+          ))}
         </div>
-        <button className="cr " onClick={scrollRight}>
+        <button className="cr" onClick={scrollRight}>
           <FaChevronRight size={30} color="white" />
         </button>
       </div>

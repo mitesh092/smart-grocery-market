@@ -3,7 +3,7 @@ import "./css/Product.css";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
 
-function Product() {
+function Product({ Food_Title, Food_img_url, off, com_Price, Actual_price }) {
   const [count, setCount] = useState(1);
 
   const increment = () => {
@@ -11,13 +11,14 @@ function Product() {
   };
 
   const decrement = () => {
-    if (count > 1) setCount(count - 1); // Prevents negative numbers
+    if (count > 1) setCount(count - 1);
   };
+
   return (
     <div className="cart-Layout">
       <div className="Product-data">
         <div className="Off-on-Product">
-          <p className="offer">17%</p>
+          <p className="offer">{off}</p>
         </div>
         <div className="Sign">
           <img
@@ -27,34 +28,29 @@ function Product() {
         </div>
       </div>
 
-      {/*Food Image Section*/}
+      {/* Food Image Section */}
       <div className="Food-Image">
-        <img
-          src="https://i.pinimg.com/736x/d8/43/ad/d843ad360d8f7615452b80b4bb725019.jpg"
-          alt=""
-        />
+        <img src={Food_img_url} alt={Food_Title} />
       </div>
 
-      {/*  Food Title*/}
+      {/* Food Title */}
       <div className="Food-Title">
-        <p>organic-sweet-corn</p>
+        <p>{Food_Title}</p>
       </div>
 
-      {/*  In Stock or not */}
+      {/* In Stock or not */}
       <div className="in-Stock">
         <IoIosCheckmarkCircle className="checkmark" color="green" size={20} />
         <p>In Stock - 1 kg</p>
       </div>
 
-      {/*  Price Section */}
-
+      {/* Price Section */}
       <div className="Price-section">
-        <p className="compare-price">₹20.00</p>
-        <p className="actual-price">₹14.99</p>
+        <p className="compare-price">{com_Price}</p>
+        <p className="actual-price">{Actual_price}</p>
       </div>
 
-      {/* button */}
-
+      {/* Counter */}
       <div className="counter-container">
         <button className="counter-button" onClick={decrement}>
           -
@@ -65,11 +61,10 @@ function Product() {
         </button>
       </div>
 
-      {/* add to cart button */}
-
+      {/* Add to Cart Button */}
       <button className="add-to-cart">
         <IoCartOutline className="add-cart-icon" size={20} />
-        <p className="">Add to cart</p>
+        <p>Add to cart</p>
       </button>
     </div>
   );
