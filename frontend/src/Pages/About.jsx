@@ -2,7 +2,7 @@ import React from "react";
 
 import Offer from "../Components/Offer";
 import Navbar from "../Components/Navbar";
-import AboutUsPanel from "../Components/AboutUsPanel";
+import Panel from "../Components/Panel";
 import AboutUsSection from "../Components/AboutUsSection";
 import AboutSection from "../Components/AboutSection";
 import MeComponent from "../Components/MeComponent";
@@ -13,7 +13,7 @@ function About() {
     <div>
       <Offer />
       <Navbar />
-      <AboutUsPanel />
+      <Panel Title={"About Us"}/>
       <AboutUsSection />
       <AboutSection />
       <MeComponent/>

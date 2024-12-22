@@ -2,13 +2,13 @@ import React from "react";
 
 import "./css/Panel.css";
 
-function AboutUsPanel() {
+function Panel({Title}) {
   return (
     <div className="Panel">
-      <h1>About Us</h1>
-      <p>Home/ About us</p>
+      <h1>{Title}</h1>
+      <p>Home/ {Title}</p>
     </div>
   );
 }
 
-export default AboutUsPanel;
+export default Panel;

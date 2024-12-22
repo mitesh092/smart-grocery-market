@@ -119,7 +119,7 @@ function Navigations({ isWindowLarge }) {
             </Link>
             <ul className="dropdown-menu" aria-labelledby="projectsDropdown">
               <li>
-                <Link className="dropdown-item" to="/blog-list">
+                <Link className="dropdown-item" to="/blog">
                   Blog List
                 </Link>
               </li>

@@ -1,0 +1,221 @@
+/* Overall Page Styling */
+.blog-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Blog Container */
+.blog-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap; /* Allow wrapping for responsive design */
+}
+
+/* Blog Content */
+.blog-content {
+  width: 100%; /* Default full width */
+  max-width: 70%; /* Max width for larger screens */
+  margin-bottom: 20px; /* Space below content on smaller screens */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.blog-post {
+  margin-bottom: 30px;
+}
+
+.blog-image {
+  width: 100%;
+  max-height: 300px; /* Restrict height for better responsiveness */
+  object-fit: cover; /* Ensure proper scaling of images */
+  border-radius: 8px;
+}
+
+/* Blog Titles and Metadata */
+.blog-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.blog-meta {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+}
+
+.blog-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  text-decoration: none;
+  font-weight: bold;
+  background: linear-gradient(to right, #0cc5b7, #61d9a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Ensures proper rendering for text gradient */
+}
+
+.read-more:hover {
+  text-decoration: underline;
+  background: linear-gradient(to right,#61d9a1, #0cc5b7 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Blog Sidebar */
+.blog-sidebar {
+  width: 100%; /* Default full width */
+  max-width: 28%; /* Max width for larger screens */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+/* Sidebar Sections */
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.sidebar-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #62c6b3;
+}
+
+/* Categories */
+.categories ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.categories li {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.categories li:hover {
+  color: #007bff;
+}
+
+/* Newsletter */
+.newsletter-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.newsletter-input:focus {
+  outline: none;
+  border-color: #62c6b3;
+}
+
+.newsletter-button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(
+    to right,
+    #0cc5b7,
+    #61d9a1
+  ); /* Gradient background */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.3s ease; /* Smooth transition for hover */
+}
+
+.newsletter-button:hover {
+  background: linear-gradient(
+    to right,
+    #61d9a1,
+    #0cc5b7
+  ); /* Reverse gradient on hover */
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.tag:hover {
+  background: linear-gradient(to right, #61d9a1, #0cc5b7);
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blog-content,
+  .blog-sidebar {
+    max-width: 100%; /* Full width on smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .blog-title {
+    font-size: 20px; /* Slightly smaller titles */
+  }
+
+  .blog-meta {
+    font-size: 12px;
+  }
+
+  .blog-description {
+    font-size: 14px;
+  }
+
+  .blog-image {
+    max-height: 200px; /* Smaller image height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-title {
+    font-size: 18px; /* Smaller titles for very small screens */
+  }
+
+  .blog-description {
+    font-size: 12px; /* Compact description text */
+  }
+
+  .tag {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}
