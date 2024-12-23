@@ -10,6 +10,7 @@ import Slider from "../Components/Slider";
 import Products from "../Components/Products";
 import FeatureSection from "../Components/FeatureSection";
 import Footer from "../Components/Footer";
+import Fruits_list from "../Utils/Fruits_list.json";
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
       <div className="divider my"></div>
       <Slider />
       <div className="divider"></div>
-      <Products />
+      <Products Product_list={Fruits_list}/>
       <div className="divider my-0"></div>
       <FeatureSection /> 
       <div className="divider my-0"></div>

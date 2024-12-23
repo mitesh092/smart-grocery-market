@@ -1,0 +1,58 @@
+[
+  {
+    "Food_Title": "Frozen Green Peas",
+    "Food_img_url": "https://www.quickpantry.in/cdn/shop/products/frozen-green-peas-1-kg-quick-pantry.jpg?v=1710538982&width=1000",
+    "off": "15%",
+    "com_Price": "₹150",
+    "Actual_price": "₹127"
+  },
+  {
+    "Food_Title": "Frozen French Fries",
+    "Food_img_url": "https://m.media-amazon.com/images/I/91YMpsZOM-S.jpg",
+    "off": "20%",
+    "com_Price": "₹200",
+    "Actual_price": "₹160"
+  },
+  {
+    "Food_Title": "Frozen Sweet Corn",
+    "Food_img_url": "https://www.bigbasket.com/media/uploads/p/xl/40199068-2_4-farmland-frozen-vegetables-sweet-corn.jpg",
+    "off": "10%",
+    "com_Price": "₹120",
+    "Actual_price": "₹108"
+  },
+  {
+    "Food_Title": "Frozen Mixed Vegetables",
+    "Food_img_url": "https://images-cdn.ubuy.co.in/65e0505743086b1e67704412-birds-eye-steamfresh-frozen-mixed.jpg",
+    "off": "18%",
+    "com_Price": "₹180",
+    "Actual_price": "₹148"
+  },
+  {
+    "Food_Title": "Frozen Strawberries",
+    "Food_img_url": "https://www.bigbasket.com/media/uploads/p/xl/40128135_5-delishh-frozen-strawberries.jpg",
+    "off": "25%",
+    "com_Price": "₹400",
+    "Actual_price": "₹300"
+  },
+  {
+    "Food_Title": "Frozen Blueberries",
+    "Food_img_url": "https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2024-07-18/34.jpg",
+    "off": "20%",
+    "com_Price": "₹500",
+    "Actual_price": "₹400"
+  },
+  {
+    "Food_Title": "Frozen Paneer Cubes",
+    "Food_img_url": "https://www.bigbasket.com/media/uploads/p/xxl/40124215_6-gowardhan-paneer-cubes-frozen.jpg",
+    "off": "10%",
+    "com_Price": "₹250",
+    "Actual_price": "₹225"
+  },
+  {
+    "Food_Title": "Frozen Spinach",
+    "Food_img_url": "https://m.media-amazon.com/images/I/61+K6Aau0CS.jpg",
+    "off": "15%",
+    "com_Price": "₹200",
+    "Actual_price": "₹170"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "Food_Title": "Canned Black Beans",
+    "Food_img_url": "https://spicenest.in/cdn/shop/files/BlackBeans.png?v=1733406115&width=1946",
+    "off": "20%",
+    "com_Price": "₹150",
+    "Actual_price": "₹120"
+  },
+  {
+    "Food_Title": "Pasta Fusilli",
+    "Food_img_url": "https://www.jiomart.com/images/product/original/rvem1pjgtw/borges-fusilli-pasta-500g-pack-of-3-product-images-orvem1pjgtw-p596888570-1-202301041403.jpg?im=Resize=(420,420)",
+    "off": "15%",
+    "com_Price": "₹400",
+    "Actual_price": "₹340"
+  },
+  {
+    "Food_Title": "Organic Quinoa",
+    "Food_img_url": "https://www.jiwa.in/cdn/shop/products/YUc_JIWA_quinoa_PROSHOT_mar_2021_a.jpg?v=1659934852",
+    "off": "25%",
+    "com_Price": "₹400",
+    "Actual_price": "₹300"
+  },
+  {
+    "Food_Title": "Peanut Butter",
+    "Food_img_url": "https://balidirectstore.com/wp-content/uploads/2021/07/peanut-butter-activated-roasted-1024x1024.jpg",
+    "off": "30%",
+    "com_Price": "₹400",
+    "Actual_price": "₹280"
+  },
+  {
+    "Food_Title": "Dry Fruits Mix",
+    "Food_img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz9Fo3w9GY3L2NBYhHuMyxQWo77kRdq_C5Gg&s",
+    "off": "10%",
+    "com_Price": "₹1000",
+    "Actual_price": "₹900"
+  },
+  {
+    "Food_Title": "Instant Coffee Powder",
+    "Food_img_url": "https://m.media-amazon.com/images/I/61RBMlMOU4L.SS700.jpg",
+    "off": "18%",
+    "com_Price": "₹500",
+    "Actual_price": "₹410"
+  },
+  {
+    "Food_Title": "Cereal Granola",
+    "Food_img_url": "https://rukminim2.flixcart.com/image/850/1000/xif0q/cereal-flake/b/i/b/-original-imagg5abtwtcwj3z.jpeg?q=20&crop=false",
+    "off": "12%",
+    "com_Price": "₹250",
+    "Actual_price": "₹220"
+  },
+  {
+    "Food_Title": "Long-Grain Basmati Rice",
+    "Food_img_url": "https://m.media-amazon.com/images/I/81Fu7HqM6bL.jpg",
+    "off": "40%",
+    "com_Price": "₹1000",
+    "Actual_price": "₹600"
+  }
+]

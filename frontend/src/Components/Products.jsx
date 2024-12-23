@@ -5,9 +5,9 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // Static Data
-import Fruits_list from "../Utils/Fruits_list.json";
 
-function Products() {
+
+function Products({Product_list}) {
   const sliderRef = useRef(null);
 
   const scrollLeft = () => {
@@ -35,7 +35,7 @@ function Products() {
 
       {/* Product List */}
       <div className="products">
-        {Fruits_list.map((fruit, index) => (
+        {Product_list.map((fruit, index) => (
           <Product
             key={index}
             Food_Title={fruit.Food_Title}
@@ -66,7 +66,7 @@ function Products() {
           <FaChevronLeft size={30} color="white" />
         </button>
         <div className="Product-slider" ref={sliderRef}>
-          {Fruits_list.slice(0, 6).map((fruit, index) => (
+          {Product_list.slice(0, 6).map((fruit, index) => (
             <Product
               key={index}
               Food_Title={fruit.Food_Title}
