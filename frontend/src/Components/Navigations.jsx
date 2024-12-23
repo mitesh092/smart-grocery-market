@@ -106,29 +106,16 @@ function Navigations({ isWindowLarge }) {
           </li>
 
           {/* Blog Dropdown */}
-          <li className="navigation-item dropdown">
+          <li className="navigation-item ">
             <Link
-              className="navigation-link dropdown-toggle"
+              className="navigation-link "
               to="/blog"
               id="projectsDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               Blog
             </Link>
-            <ul className="dropdown-menu" aria-labelledby="projectsDropdown">
-              <li>
-                <Link className="dropdown-item" to="/blog">
-                  Blog List
-                </Link>
-              </li>
-              <li>
-                <Link className="dropdown-item" to="/blog-details">
-                  Blog Details
-                </Link>
-              </li>
-            </ul>
+            
           </li>
 
           {/* FAQ */}
