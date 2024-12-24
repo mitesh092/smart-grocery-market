@@ -10,6 +10,7 @@ import Contact from "./Pages/Contact"; // Add other pages as necessary
 import Faq from "./Pages/Faq";
 import Blog from "./Pages/Blog"
 import HomeRtl from "./Components/HomeRtl";
+import FoodVegitable from "./Pages/FoodVegitable";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/home2" element={<Home2 />} />
         <Route path="/home3" element={<Home3 />} />
         <Route path="/home-rtl" element={<HomeRtl />} />
+        <Route path="/fruits-vegetables" element={<FoodVegitable />} />
 
         <Route path="/about" element={<About />} />
         

@@ -2,57 +2,57 @@
   {
     "Food_Title": "Non-Stick Cookware Set",
     "Food_img_url": "https://m.media-amazon.com/images/I/71oZ1-QYomL._AC_UF894,1000_QL80_.jpg",
-    "off": "30%",
-    "com_Price": "₹4,500",
-    "Actual_price": "₹3,150"
+    "off": 30,
+    "com_Price": 4500,
+    "Actual_price": 3150
   },
   {
     "Food_Title": "Stainless Steel Pressure Cooker",
     "Food_img_url": "https://shopwithpraylady.com/cdn/shop/products/55.jpg?v=1679047788",
-    "off": "25%",
-    "com_Price": "₹1,200",
-    "Actual_price": "₹900"
+    "off": 25,
+    "com_Price": 1200,
+    "Actual_price": 900
   },
   {
     "Food_Title": "Electric Kettle",
     "Food_img_url": "https://kitchenmart.co.in/cdn/shop/products/415mgfOmzUS_600x.jpg?v=1631462080",
-    "off": "18%",
-    "com_Price": "₹1,000",
-    "Actual_price": "₹820"
+    "off": 18,
+    "com_Price": 1000,
+    "Actual_price": 820
   },
   {
     "Food_Title": "Food Processor",
     "Food_img_url": "https://images-cdn.ubuy.co.in/64d00a6b6037f96d1f09c052-ninja-professional-food-processor-850.jpg",
-    "off": "15%",
-    "com_Price": "₹3,500",
-    "Actual_price": "₹2,975"
+    "off": 15,
+    "com_Price": 3500,
+    "Actual_price": 2975
   },
   {
     "Food_Title": "Microwave Oven",
     "Food_img_url": "https://res.cloudinary.com/sharp-consumer-eu/image/fetch/w_3000,f_auto/https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/c7c9dc3a-b720-11ec-bd5f-eecbf35dfbeb.jpg",
-    "off": "20%",
-    "com_Price": "₹12,000",
-    "Actual_price": "₹9,600"
+    "off": 20,
+    "com_Price": 12000,
+    "Actual_price": 9600
   },
   {
     "Food_Title": "Blender Mixer",
     "Food_img_url": "https://sujataappliances.com/wp-content/uploads/2021/09/Frootmix-New.jpg",
-    "off": "12%",
-    "com_Price": "₹2,000",
-    "Actual_price": "₹1,760"
+    "off": 12,
+    "com_Price": 2000,
+    "Actual_price": 1760
   },
   {
     "Food_Title": "Chopping Board Set",
     "Food_img_url": "https://rukminim2.flixcart.com/image/850/1000/xif0q/chopper/v/o/n/fiber-chopping-borad-knife-set-r-k-enterprise-original-imagnn24e5yukucn.jpeg?q=90&crop=false",
-    "off": "10%",
-    "com_Price": "₹600",
-    "Actual_price": "₹540"
+    "off": 10,
+    "com_Price": 600,
+    "Actual_price": 540
   },
   {
     "Food_Title": "Stainless Steel Sink",
     "Food_img_url": "https://decure.in/cdn/shop/files/double_bowl_everado_plus.jpg?v=1717238423",
-    "off": "18%",
-    "com_Price": "₹3,500",
-    "Actual_price": "₹2,870"
+    "off": 18,
+    "com_Price": 3500,
+    "Actual_price": 2870
   }
 ]

@@ -18,7 +18,7 @@ function Product({ Food_Title, Food_img_url, off, com_Price, Actual_price }) {
     <div className="cart-Layout">
       <div className="Product-data">
         <div className="Off-on-Product">
-          <p className="offer">{off}</p>
+          <p className="offer">{off + "%"}</p>
         </div>
         <div className="Sign">
           <img

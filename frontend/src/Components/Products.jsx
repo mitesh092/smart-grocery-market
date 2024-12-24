@@ -3,11 +3,9 @@ import "./css/Products.css";
 import Product from "./Product";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
+import PropTypes from "prop-types";
 
-// Static Data
-
-
-function Products({Product_list}) {
+function Products({ Product_list = [] }) {
   const sliderRef = useRef(null);
 
   const scrollLeft = () => {
@@ -35,16 +33,25 @@ function Products({Product_list}) {
 
       {/* Product List */}
       <div className="products">
-        {Product_list.map((fruit, index) => (
-          <Product
-            key={index}
-            Food_Title={fruit.Food_Title}
-            Food_img_url={fruit.Food_img_url}
-            off={fruit.off}
-            com_Price={fruit.com_Price}
-            Actual_price={fruit.Actual_price}
-          />
-        ))}
+        {Product_list.length > 0 ? (
+          Product_list.map((fruit, index) => {
+            // Ensure `off` is a number
+            const off = typeof fruit.off === "string" ? parseFloat(fruit.off) : fruit.off;
+            
+            return (
+              <Product
+                key={index}
+                Food_Title={fruit.Food_Title}
+                Food_img_url={fruit.Food_img_url}
+                off={off}
+                com_Price={fruit.com_Price}
+                Actual_price={fruit.Actual_price}
+              />
+            );
+          })
+        ) : (
+          <p>No products available.</p>
+        )}
       </div>
 
       {/* Middle Image */}
@@ -66,16 +73,24 @@ function Products({Product_list}) {
           <FaChevronLeft size={30} color="white" />
         </button>
         <div className="Product-slider" ref={sliderRef}>
-          {Product_list.slice(0, 6).map((fruit, index) => (
-            <Product
-              key={index}
-              Food_Title={fruit.Food_Title}
-              Food_img_url={fruit.Food_img_url}
-              off={fruit.off}
-              com_Price={fruit.com_Price}
-              Actual_price={fruit.Actual_price}
-            />
-          ))}
+          {Product_list.length > 0 ? (
+            Product_list.slice(0, 6).map((fruit, index) => {
+              const off = typeof fruit.off === "string" ? parseFloat(fruit.off) : fruit.off;
+              
+              return (
+                <Product
+                  key={index}
+                  Food_Title={fruit.Food_Title}
+                  Food_img_url={fruit.Food_img_url}
+                  off={off}
+                  com_Price={fruit.com_Price}
+                  Actual_price={fruit.Actual_price}
+                />
+              );
+            })
+          ) : (
+            <p>No products available for the slider.</p>
+          )}
         </div>
         <button className="cr" onClick={scrollRight}>
           <FaChevronRight size={30} color="white" />
@@ -84,5 +99,18 @@ function Products({Product_list}) {
     </div>
   );
 }
+
+// Adding PropTypes for better validation
+Products.propTypes = {
+  Product_list: PropTypes.arrayOf(
+    PropTypes.shape({
+      Food_Title: PropTypes.string.isRequired,
+      Food_img_url: PropTypes.string.isRequired,
+      off: PropTypes.number,
+      com_Price: PropTypes.number.isRequired,
+      Actual_price: PropTypes.number.isRequired,
+    })
+  ),
+};
 
 export default Products;

@@ -2,57 +2,57 @@
   {
     "Food_Title": "Organic Sweet Corn",
     "Food_img_url": "https://i.pinimg.com/736x/d8/43/ad/d843ad360d8f7615452b80b4bb725019.jpg",
-    "off": "17%",
-    "com_Price": "₹1499",
-    "Actual_price": "₹1000"
+    "off": 17,
+    "com_Price": 1499,
+    "Actual_price": 1000
   },
   {
     "Food_Title": "Native Organic Papaya",
     "Food_img_url": "https://livelife.lk/wp-content/uploads/2024/08/3.jpg",
-    "off": "34%",
-    "com_Price": "₹999",
-    "Actual_price": "₹1500"
+    "off": 34,
+    "com_Price": 999,
+    "Actual_price": 1500
   },
   {
     "Food_Title": "Green Seedless Grapes",
     "Food_img_url": "https://admin.abemart.in/storage/products/668cc4b29304c1720501426.jpg",
-    "off": "59%",
-    "com_Price": "₹499",
-    "Actual_price": "₹1200"
+    "off": 59,
+    "com_Price": 499,
+    "Actual_price": 1200
   },
   {
     "Food_Title": "Organic Grape Tomatoes",
     "Food_img_url": "https://zamaorganics.com/cdn/shop/files/Untitleddesign_2_11zon.png?v=1694683333",
-    "off": "43%",
-    "com_Price": "₹399",
-    "Actual_price": "₹700"
+    "off": 43,
+    "com_Price": 399,
+    "Actual_price": 700
   },
   {
     "Food_Title": "Organic Broccoli",
     "Food_img_url": "https://nisargafoods.com/image/cache/catalog/my%20uploads(products)/broccoli2-800x800.jpg",
-    "off": "30%",
-    "com_Price": "₹700",
-    "Actual_price": "₹1000"
+    "off": 30,
+    "com_Price": 700,
+    "Actual_price": 1000
   },
   {
     "Food_Title": "Washed Sugar Snap Peas",
     "Food_img_url": "https://farmkatta.com/wp-content/uploads/2018/08/2-1.jpg",
-    "off": "20%",
-    "com_Price": "₹400",
-    "Actual_price": "₹500"
+    "off": 20,
+    "com_Price": 400,
+    "Actual_price": 500
   },
   {
     "Food_Title": "Organic Strawberry",
     "Food_img_url": "https://fallingbrookmarket.ca/cdn/shop/products/1558_hannahgothelf_d31dbcdc-ceba-4266-84d5-e1e7d3e235a9_900x.jpg?v=1600705266",
-    "off": "42%",
-    "com_Price": "₹700",
-    "Actual_price": "₹1200"
+    "off": 42,
+    "com_Price": 700,
+    "Actual_price": 1200
   },
   {
     "Food_Title": "Organic Vegetable",
     "Food_img_url": "https://3.imimg.com/data3/JC/BM/GLADMIN-84795/organic-vegetable-250x250.jpg",
-    "off": "50%",
-    "com_Price": "₹500",
-    "Actual_price": "₹1000"
+    "off": 50,
+    "com_Price": 500,
+    "Actual_price": 1000
   }
 ]

@@ -22,7 +22,7 @@ function Home() {
       <div className="divider my"></div>
       <Slider />
       <div className="divider"></div>
-      <Products Product_list={Fruits_list}/>
+      <Products Product_list={Fruits_list} />
       <div className="divider my-0"></div>
       <FeatureSection /> 
       <div className="divider my-0"></div>
@@ -30,5 +30,7 @@ function Home() {
     </>
   );
 }
+
+
 
 export default Home;
