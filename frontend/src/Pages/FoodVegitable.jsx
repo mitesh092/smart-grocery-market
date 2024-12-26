@@ -5,6 +5,8 @@ import Navbar from "../Components/Navbar";
 import Products from "../Components/Products";
 import Footer from "../Components/Footer";
 
+
+import "./pages-styles/Filter.css"
 import Fruits_list from "../Utils/Fruits_list.json";
 import FroZenGoods from "../Utils/FrozenGoods.json";
 
